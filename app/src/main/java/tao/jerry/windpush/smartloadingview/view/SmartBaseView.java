@@ -47,13 +47,9 @@ public abstract class SmartBaseView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-//        canvas.drawBitmap(mBgBitmap, mBgRect, mViewRect, null);
         if (mLoadingRect!=null) {
-            RectF rectF = new RectF(mLoadingRect);
-            canvas.drawRoundRect(rectF,60,60,paint);
             canvas.drawBitmap(mLoadBitmap, mLoadingRect, mLoadingRect, null);
         }
-//        canvas.drawRect( mViewRect,paint);
     }
 
     @Override

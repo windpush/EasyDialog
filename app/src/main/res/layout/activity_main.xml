@@ -8,6 +8,14 @@
     android:background="@drawable/bg"
     android:orientation="vertical"
     android:gravity="center"
-
     />
+    <TextView
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:text="click  me"
+        />
 </RelativeLayout>
